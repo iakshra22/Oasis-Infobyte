@@ -61,3 +61,81 @@ For any queries or collaboration:
 
 ---
 **Happy Coding! 💻**
+
+#  2.💳 Secure ATM System 
+
+ ## 📌 ABOUT PROJECT:
+
+ This project is a **Java-based ATM Simulation** that mimics real-world ATM functionalities such as:
+ - User Authentication (UserID + PIN)
+ - Balance Inquiry
+ - Cash Deposit
+ - Cash Withdrawal
+ - Mini Statement
+ - Exit Option
+ Unlike traditional ATM projects with databases, this project stores all **user data in Java collections (HashMap)**.
+ 
+## 💡 Designed for beginners to understand:
+→ Object-Oriented Programming (OOP)
+→ Collections in Java (HashMap)
+→ Code modularity (separate files for users, ATM logic, etc.)
+
+ ## 📁 PROJECT STRUCTURE:
+:- 📂 ATM_Interface
+┣ 📜 ATM.java          → Main entry point
+┣ 📜 User.java         → User data model (UserID, PIN, Balance)
+┣ 📜 Database.java     → Preloaded 100+ dummy users
+┣ 📜 README.md         → Documentation
+ 
+ ## ⚙️ HOW TO RUN:
+1️⃣ Open project in Eclipse/IntelliJ/VS Code (Java enabled).
+2️⃣ Create a new package → `atm_interface`.
+3️⃣ Inside it, add the following files:
+*      - ATM.java
+*      - User.java
+*      - Database.java
+4️⃣ Copy the code into respective files.
+5️⃣ Run `ATM.java` as **Java Application**.
+
+## 👤 SAMPLE LOGIN CREDENTIALS:
+:- Database.java contains preloaded users like:
+users.put("1001", new User("1001", "1111", 15000));
+users.put("1002", new User("1002", "2222", 20000));
+users.put("1003", new User("1003", "3333", 12000));
+ *
+ *    ... (100+ dummy entries available)
+ *
+ * 👉 You can modify / add more users directly in `Database.java`
+ *
+ * ------------------------------------------------
+ * 📊 EXAMPLE OUTPUT:
+ * ------------------------------------------------
+ *
+ *  ===== Welcome to Secure ATM =====
+ *
+ *  Enter User ID: 1001
+ *  Enter PIN: 1111
+ *
+ *  ✅ Login Successful!
+ *
+ *  1. Check Balance
+ *  2. Deposit
+ *  3. Withdraw
+ *  4. Mini Statement
+ *  5. Exit
+ *
+ * ------------------------------------------------
+ * 🛠️ FUTURE ENHANCEMENTS:
+ * ------------------------------------------------
+ *  - Connect with MySQL Database
+ *  - Add ATM Card Expiry & CVV checks
+ *  - Print Receipt feature
+ *  - GUI-based ATM Interface
+ *
+ * ------------------------------------------------
+ * 👩‍💻 AUTHOR:
+ * ------------------------------------------------
+   ✨ Developed by Akshra Dang (iakshra22)
+  ================================================
+ 
+
