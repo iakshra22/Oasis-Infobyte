@@ -22,3 +22,4 @@ public class Transaction {
                " | " + details + " | Balance: ₹" + balanceAfter;
     }
 }
+
