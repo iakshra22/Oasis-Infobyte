@@ -9,7 +9,7 @@ public class BankAccount {
         this.balance = balance;
         transactionHistory = new ArrayList<>();
     }
-
+    
     public void deposit(double amount) {
         balance += amount;
         transactionHistory.add(new Transaction("Deposit", amount, "Cash Deposit", balance));
@@ -62,3 +62,4 @@ public class BankAccount {
         System.out.println("\nCurrent Balance: ₹" + balance);
     }
 }
+
