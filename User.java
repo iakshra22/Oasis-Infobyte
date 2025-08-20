@@ -2,7 +2,7 @@ package atm;
 
 public class User {
     String userId;
-    String userPin
+    String userPin;
     BankAccount account;
     boolean isLocked = false;
 
@@ -17,6 +17,7 @@ public class User {
         System.out.println("PIN changed successfully!");
     }
 }
+
 
 
 
