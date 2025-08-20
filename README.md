@@ -4,7 +4,7 @@
 
 A fun and interactive **Java-based Number Guessing Game** where the computer generates a random number and the player has to guess it within limited attempts. This project was created as part of the **Oasis Infobyte Internship Task**.
 
-## 📌 Features 
+## 📌 Features
 - Random number generation between a given range.
 - User-friendly prompts to guide the player.
 - Feedback on each guess (too high / too low).
