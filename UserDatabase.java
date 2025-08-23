@@ -106,6 +106,7 @@ public class UserDatabase {
         users.put("1098", new User("1098", "9898", 31000));
         users.put("1099", new User("1099", "9999", 48000));
         users.put("1100", new User("1100", "1000", 20000));
+        users.put("1101", new User("1101", "0000", 65789));
 
 
         for (int i = 1011; i <= 1150; i++) {
@@ -118,6 +119,7 @@ public class UserDatabase {
         return users;
     }
 }
+
 
 
 
