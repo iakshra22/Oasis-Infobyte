@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GameCode {
-    
+
     private int minRange = 1;
     private int maxRange = 100;
     private int maxAttempts = 5;
@@ -164,6 +164,7 @@ public class GameCode {
         new GameCode().startGame();
     }
 }
+
 
 
 
