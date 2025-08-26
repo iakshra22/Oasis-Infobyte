@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ATM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    
+
         HashMap<String, User> users = UserDatabase.getUsers();
 
         System.out.println("===== Welcome to Secure ATM =====");
@@ -53,6 +53,7 @@ public class ATM {
         sc.close();
     }
 }
+
 
 
 
